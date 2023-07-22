@@ -1,0 +1,57 @@
+.galleria2 {
+    position: relative;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    background-color: #AFD3E2;
+    border-radius: 0;
+}
+
+.img2 {
+    border-radius: 0;
+    object-fit: none;
+}
+.kuvatausta2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.kuvaselitys2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    opacity: 50%;
+}
+.kuvaselitysteksti2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 700px) {
+    .kuvaselitysteksti2 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 300px) {
+    .kuvaselitysteksti2 {
+        font-size: 3rem;
+    }
+}
+.elavakuva2 {
+    margin: 0;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
